@@ -25,7 +25,7 @@ warnings.filterwarnings("ignore", category=UserWarning, module="sklearn")
 
 torch.set_num_threads(2)
 
-CACHE_DIR = r"C:\Users\oladipea\Downloads\ddd\mimic_cache"
+CACHE_DIR = "mimic_cache"
 
 
 def parse_args():
